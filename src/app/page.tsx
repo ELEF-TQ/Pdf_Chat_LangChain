@@ -1,5 +1,5 @@
-import Chat from "@/components/chat";
-import { DarkModeToggle } from "@/components/dark-mode-toggle";
+import {Chat} from "@/components/chat";
+import { DarkModeToggle } from "@/components/theme/dark-mode-toggle";
 export default function Home() {
   return (
     <main className="relative container flex min-h-screen flex-col">
