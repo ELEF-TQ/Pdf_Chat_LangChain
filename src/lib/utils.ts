@@ -41,7 +41,7 @@ export function formattedText(inputText: string) {
 }
 
 // Default UI Message
-export const initialMessages: Message[] = [
+export const initialMessages: Message[] | any= [
   {
     role: "assistant",
     id: "0",
